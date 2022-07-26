@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>stl_utils</name>
   <version>1.0.0</version>
   <description>The stl_utils package</description>
   <maintainer email="v.ivan@ed.ac.uk">Vladimir Ivan</maintainer>
   <license>BSD</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
 </package>
